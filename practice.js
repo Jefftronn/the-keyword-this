@@ -4,17 +4,26 @@
       //Answer
 // The purpose of "this keyword" is to give context to objects and functions to call upon them.
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
+/*
 
+New-
+implicit-
+explicit-
+default-
+
+
+*/
       //Answer
 //
   // 3) What is the difference between call and apply?
 
       //Answer
+//Apply is used to execute a function with an array of parameters.
 
   // 4) What does .bind do?
 
       //Answer
-
+        //Bind is used when we are calling a function with the this values set explicitly.
 
 //Next Problem
 
@@ -91,8 +100,8 @@ setTimeout(getMyUsername.apply(myUser), 5000);
 //Above you're given an object, a function, and a setTimeout invocation. After 5 seconds, what will the getUsername function return?
 //Note(no tests)
   //Answer Here
-
-// 
+//undefined
+//
 
 //In the example above, what is the 'this keyword' bound to when getUsername runs?
 
